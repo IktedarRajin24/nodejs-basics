@@ -1,0 +1,15 @@
+{
+  "name": "lession_06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lessionSix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajin",
+  "license": "ISC",
+  "dependencies": {
+    "popular-movie-quotes": "^1.2.4",
+    "random-fruits-name": "^1.9.6"
+  }
+}

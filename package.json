@@ -1,0 +1,21 @@
+{
+  "name": "rajin",
+  "version": "1.0.0",
+  "description": "amazing pkg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rajin"
+  ],
+  "author": "rajin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "popular-movie-quotes": "^1.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "lession_05",
+  "version": "1.0.0",
+  "description": "external modules",
+  "main": "lessionFive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajin",
+  "license": "ISC",
+  "dependencies": {
+    "random-fruits-name": "^1.9.6"
+  }
+}
