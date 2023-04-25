@@ -9,14 +9,26 @@ app.post("/user", (req, res)=>{
     const name = req.body.name;
     const salary = req.body.salary;
 
-    // console.log(req.body);
-
-    // console.log(name, salary)
-
     res.send(`
         <h1>Welcome ${name}. </h1>
         <p>Your salary is BDT ${salary} taka.</p>
     
+    `)
+})
+
+app.get("/register", (req, res)=>{
+    res.sendFile(__dirname + "/views/registration.html");
+});
+
+app.post("/register", (req, res)=>{
+    const {name, comment} = req.body;
+    res.send(`
+        <h1>
+            Your name is ${name}
+        </h1>
+        <p>
+            <b>Comment: </b>${comment}
+        </p>
     `)
 })
 module.exports = app;

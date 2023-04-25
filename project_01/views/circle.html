@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .nav-bar{
+            height: 40px;
+            background-color: rgb(25, 25, 165);
+            padding: 20px;
+        }
+        .nav-bar ul{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+        .nav-list{
+            list-style: none;
+            margin: 0;
+        }
+        .nav-list li{
+            padding-left: 10px;
+        }
+        .nav-menu a{
+            text-decoration: none;
+            color: white;
+        }
+        .area-form{
+            background-color: darkorange;
+            padding: 20px;
+            width: 30%;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li class="nav-menu"><a href="/">Home</a></li>
+                <li class="nav-menu"><a href="/circle">Circle</a></li>
+                <li class="nav-menu"><a href="/triangle">Triangle</a></li>
+                <li class="nav-menu"><a href="/square">Square</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 style="text-align: center;">Circle Area</h1>
+        <form class="area-form" action="/circle" method="post">
+            <div>
+                <label for="radius">Radius: </label>
+                <input type="text" name="radius" id="radius">
+            </div>
+            <br>
+            <button type="submit">Calculate</button>
+        </form>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
